@@ -1,0 +1,21 @@
+ul{
+    list-style-type: none;
+    margin:20px;
+    padding:0;
+    overflow:hidden;
+}
+li{
+    float:left;
+}
+li a {
+    display:block;
+    padding:20px 70px;
+    background-color: indianred;
+}
+li a:hover{
+    background-color: thistle;
+    color:white;
+}
+h1{
+    text-align: center;
+}
