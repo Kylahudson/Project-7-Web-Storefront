@@ -1,0 +1,43 @@
+ul{
+    list-style-type: none;
+    margin:25px;
+    padding:0;
+    overflow:hidden;
+    position:fixed;
+    top:50px;
+    width:100%;
+}
+li{
+    float:left;
+}
+li a {
+    display:block;
+    padding:20px 70px;
+    background-color: indianred;
+}
+li a:hover{
+    background-color: thistle;
+    color:white;
+}
+h1{
+    text-align: center;
+}
+#leftside{
+   background: url("https://ae01.alicdn.com/kf/HTB14YbOLVXXXXXRXVXXq6xXFXXXy/Popular-British-men-skateboarding-shoes-quality-flat-with-canvas-sneakers-for-men-sneakers-Cool-shoes-39.jpg_640x640.jpg");
+    width: 50%;
+    position:fixed;
+    left: 0;
+    height: 100%;
+    z-index: -1;
+}
+#rightside{
+    background: url("https://65.media.tumblr.com/4c07b9fd548e8e8df78748aa1bd6b8b2/tumblr_oe36ouLVhm1v49to8o1_500.jpg");
+    width: 50%;
+    position:fixed;
+    right:0;
+    height:100%;
+    z-index:-1;
+}
+body{
+
+}
